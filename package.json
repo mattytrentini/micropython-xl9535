@@ -1,0 +1,7 @@
+{
+  "urls": [
+    ["xl9535.py", "github:mattytrentini/micropython-xl9535/xl9535.py"]
+  ],
+  "version": "1.0.0",
+  "deps": []
+}
