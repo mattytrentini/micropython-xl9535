@@ -111,6 +111,12 @@ external levels and output latches:
 python -m unittest discover -s tests
 ```
 
+The mip-installed driver was also exercised on a CO16 XL9555 at `0x24`:
+construction preserved configuration, output and polarity registers, and
+all-input configuration plus both-bank input reads succeeded. Output-latch
+behavior is covered by the register-model tests; the hardware smoke did not
+drive the CO16 input terminals or operate its separate relay expander.
+
 ## License
 
 MIT; copyright 2026 Matt Trentini. See `LICENSE`.
